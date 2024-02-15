@@ -20,6 +20,7 @@ public internet.
 - A means of CI/CD, like a Jenkinsfile, GitHub Actions workflow, Azure Devops pipeline..
 - Kubernetes manifests
 - A brief explanation of how a teammate could deploy and monitor this
+
 Please don’t roll out any cloud resources. Assume you have a fully working environment, including your
 preferred CI/CD service, image host, and Kubernetes cluster. We’re interested in your
 application-specific uses of these services and discussing your decisions.
@@ -27,11 +28,18 @@ Feel free to ask questions if you get stuck anywhere.
 
 ## Evaluation
 We’ll evaluate your solution on the following criteria:
-● Does it work?
-● Is it clear and concise?
-● Does it practice good security hygiene? Does it hardcode any keys or secrets?
-● Does it prevent broken code updates from impacting end users?
-● Are deployments resistant to application failure?
-● Can deployments handle spikes in traffic?
-● Can it be monitoredt?
-● Can it serve as a template for new projects?
+- Does it work?
+- Is it clear and concise?
+- Does it practice good security hygiene? Does it hardcode any keys or secrets?
+- Does it prevent broken code updates from impacting end users?
+- Are deployments resistant to application failure?
+- Can deployments handle spikes in traffic?
+- Can it be monitored?
+- Can it serve as a template for new projects?
+
+  ## Steps
+
+  We start building the Dockerfile and gitlab-ci.yaml in legal-term-api
+
+  Dockerfile
+ <img width="681" alt="Screen Shot 2024-02-15 at 12 01 29 PM" src="https://github.com/OksanaLevchenko/Casetext/assets/114625801/25650129-109f-46b2-9d86-5195dffe9e7f">
