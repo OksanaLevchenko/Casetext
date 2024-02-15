@@ -16,10 +16,10 @@ Implement a means of building this service, deploying it to a Kubernetes cluster
 public internet.
 
 ## We’re looking for
-● A Dockerfile
-● A means of CI/CD, like a Jenkinsfile, GitHub Actions workflow, Azure Devops pipeline..
-● Kubernetes manifests
-● A brief explanation of how a teammate could deploy and monitor this
+- A Dockerfile
+- A means of CI/CD, like a Jenkinsfile, GitHub Actions workflow, Azure Devops pipeline..
+- Kubernetes manifests
+- A brief explanation of how a teammate could deploy and monitor this
 Please don’t roll out any cloud resources. Assume you have a fully working environment, including your
 preferred CI/CD service, image host, and Kubernetes cluster. We’re interested in your
 application-specific uses of these services and discussing your decisions.
