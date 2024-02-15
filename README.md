@@ -43,3 +43,7 @@ We’ll evaluate your solution on the following criteria:
 
   Dockerfile
  <img width="681" alt="Screen Shot 2024-02-15 at 12 01 29 PM" src="https://github.com/OksanaLevchenko/Casetext/assets/114625801/25650129-109f-46b2-9d86-5195dffe9e7f">
+
+ gitlab-ci.yaml
+ 
+<img width="567" alt="Screen Shot 2024-02-15 at 12 01 39 PM" src="https://github.com/OksanaLevchenko/Casetext/assets/114625801/f372e3ab-4055-45b3-a976-56a0c87ebb81">
