@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: oks-term-api-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: oks-term-api
+  template:
+    metadata:
+      labels:
+        app: oks-term-api
+    spec:
+      containers:
+      - name: oks-term-api-container
+        image: oksanalevchenko/test-term-api:latest
+        ports:
+        - containerPort: 8000
